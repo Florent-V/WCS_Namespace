@@ -1,6 +1,6 @@
 <?php 
 
-require '../src/Hello.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 $object = new App\Hello();
 
